@@ -137,7 +137,7 @@ div.main {
 }
 
 div.contents {
-	border: 1px solid rgb(30, 255, 0);
+	/* border: 1px solid rgb(30, 255, 0); */
 	margin: 2px;
 	padding: 2px;
 }
@@ -156,14 +156,26 @@ div.upper {
 	/* border: 1px solid brown; */
 }
 
+div.lowers {
+	/* border: 1px solid orange; */
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;	
+}
+
 div.lower {
-	display: inline-block;
-	width: 250px;
-	margin: 10px;
+	width: 33%;
+	margin: 5px;
+	padding: 5px;
+	/* border: 1px solid brown; */
 }
 
 img.middle-img {
-	display: inline-block;
+	display: flex;
+	margin: 2px;
+	padding: 2px;
+	justify-content: center;
+	
 }
 
 p {
