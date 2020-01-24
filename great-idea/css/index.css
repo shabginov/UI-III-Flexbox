@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.main-container {
+	width: 900px;
+	margin: auto;
+	/* border: 2px solid blue ; */
+}
+
+header {
+	/* border: 1px solid brown; */
+	display: inline-block;
+	margin: 1px;
+}
+
+header nav {
+	display: inline-block;
+	margin: 10px;
+	/* border: 1px solid green; */
+}
+
+nav a {
+	margin: 20px;
+	color: gray;
+	text-decoration: none;
+	/* background-color: indianred; */
+}
+
+header img {
+	/* border: 1px solid green; */
+	margin: 1px;
+}
+
+/* section.innovation {
+	border: 1px solid rebeccapurple;
+} */
+section.innovation div {
+	display: inline-block;
+	/* border: 2px solid aqua; */
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	vertical-align: top;
+	margin: 40px;
+}
+div h1 {
+	padding: 20px;
+	margin-top: 40px;
+	/* border: 1px solid gray; */
+	font-size: 60px;
+}
+
+div button {
+	/* border: 1px solid gray; */
+	padding: 5px 30px;
+}
+section.innovation img {
+	display: inline-block;
+	margin-left: 80px;
+}
+
+div.main {
+	border: 3px solid green;
+}
+
+div.contents {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 20px;
+}
+
+div.upper {
+	display: inline-block;
+	width: 380px;
+	margin: 20px;
+}
+
+div.lower {
+	display: inline-block;
+	width: 250px;
+	margin: 10px;
+}
+
+img.middle-img {
+	display: inline-block;
+}
+
+p:last-child {
+	text-align: center;
+}
