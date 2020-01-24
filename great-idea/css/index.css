@@ -130,25 +130,30 @@ div button {
 }
 
 
-
-
-
-
-
 div.main {
-	border: 3px solid green;
+	border: 1px dotted #8b190a;
+	margin: 3px;
+	padding: 5px;
 }
 
 div.contents {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	margin: 20px;
+	border: 1px solid rgb(30, 255, 0);
+	margin: 2px;
+	padding: 2px;
 }
 
+div.uppers {
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid rgb(0, 60, 255); */
+	margin: 10px 0;
+	padding: 3px;
+}
 div.upper {
 	display: inline-block;
-	width: 380px;
-	margin: 20px;
+	width: 48%;
+	margin: 10px;
+	/* border: 1px solid brown; */
 }
 
 div.lower {
@@ -161,6 +166,11 @@ img.middle-img {
 	display: inline-block;
 }
 
-p:last-child {
-	text-align: center;
+p {
+	/* border: 1px solid fuchsia; */
+	text-align: left;
 }
+
+/* p:last-child {
+	text-align: center;
+} */
