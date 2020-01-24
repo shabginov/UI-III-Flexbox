@@ -68,18 +68,24 @@ h1, h2, h3, h4, h5 {
 .main-container {
 	width: 900px;
 	margin: auto;
-	/* border: 2px solid blue ; */
+	border: 2px solid blue ;
 }
 section.head {
 	margin: 30px 0;
 }
 header.heading {
-	/* border: 2px solid brown; */
+	/* border: 1px solid brown; */
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	/* align-items: center; */
 	margin: 3px;
 	padding: 2px;
+}
+
+nav.nav-flex {
+	/* border: 1px solid green; */
+	display: flex;
+	justify-content: space-between;
 }
 
 nav a {
