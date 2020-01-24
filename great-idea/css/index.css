@@ -68,20 +68,18 @@ h1, h2, h3, h4, h5 {
 .main-container {
 	width: 900px;
 	margin: auto;
-	border: 2px solid blue ;
+	/* border: 2px solid blue ; */
 }
-
-header.heading{
+section.head {
+	margin: 30px 0;
+}
+header.heading {
 	/* border: 2px solid brown; */
 	display: flex;
 	justify-content: space-between;
-	margin: 1px;
-}
-
-header nav {
-	display: inline-block;
-	margin: 10px;
-	/* border: 1px solid green; */
+	align-items: center;
+	margin: 3px;
+	padding: 2px;
 }
 
 nav a {
@@ -131,13 +129,14 @@ div button {
 
 
 div.main {
-	border: 1px dotted #8b190a;
+	/* border: 1px dotted #8b190a; */
 	margin: 3px;
 	padding: 5px;
 }
 
 div.contents {
-	/* border: 1px solid rgb(30, 255, 0); */
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	margin: 2px;
 	padding: 2px;
 }
@@ -150,7 +149,8 @@ div.uppers {
 	padding: 3px;
 }
 div.upper {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	width: 48%;
 	margin: 10px;
 	/* border: 1px solid brown; */
@@ -178,11 +178,18 @@ img.middle-img {
 	
 }
 
+section.footer {
+	/* border: 1px solid brown; */
+	margin: 25px 0;
+	padding: 5px;
+}
+
 p {
 	/* border: 1px solid fuchsia; */
 	text-align: left;
 }
 
-/* p:last-child {
+p.last {
 	text-align: center;
-} */
+}
+
