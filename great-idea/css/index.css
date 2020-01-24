@@ -68,12 +68,13 @@ h1, h2, h3, h4, h5 {
 .main-container {
 	width: 900px;
 	margin: auto;
-	/* border: 2px solid blue ; */
+	border: 2px solid blue ;
 }
 
-header {
-	/* border: 1px solid brown; */
-	display: inline-block;
+header.heading{
+	/* border: 2px solid brown; */
+	display: flex;
+	justify-content: space-between;
 	margin: 1px;
 }
 
@@ -95,33 +96,44 @@ header img {
 	margin: 1px;
 }
 
-/* section.innovation {
-	border: 1px solid rebeccapurple;
-} */
-section.innovation div {
-	display: inline-block;
-	/* border: 2px solid aqua; */
-	height: 300px;
-	width: 300px;
-	text-align: center;
-	vertical-align: top;
-	margin: 40px;
+section.innovation {
+	/* border: 1px solid red; */
+	margin: 10px 5px;
+	padding: 10px 5px;
 }
+
+div.innovation-container {
+	/* border: 2px double green; */
+	display: flex;
+	padding: 10px;
+	margin: 10px;
+	justify-content: space-around;
+}
+
+div.text-button {
+	/* border: 2px dotted brown; */
+	margin: 30px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 div h1 {
-	padding: 20px;
-	margin-top: 40px;
-	/* border: 1px solid gray; */
 	font-size: 60px;
+	text-align: center;
 }
 
 div button {
-	/* border: 1px solid gray; */
-	padding: 5px 30px;
+	border: 1px solid gray;	
+	width: 100px;
 }
-section.innovation img {
-	display: inline-block;
-	margin-left: 80px;
-}
+
+
+
+
+
+
 
 div.main {
 	border: 3px solid green;
