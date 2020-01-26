@@ -220,10 +220,10 @@ div.box p {
 }
 
 section.facts {
-	border: 1px solid brown;
+	border: 2px solid brown;
 	display: flex;
 	flex-wrap: wrap;
-	margin: 15px 0;
+	margin: 20px 0;
 	padding: 5px;
 }
 
@@ -233,7 +233,7 @@ section.facts h3 {
 
 div.left {
 	border: solid 1px slateblue;
-	width: 50%;
+	width: 47%;
 }
 section.facts p {
 	border: 1px solid brown;
@@ -253,12 +253,12 @@ li {
 
 section.facts img {
 	border: 1px solid plum;
-	width: 47%;
+	width: 45%;
 }
 
-section.footer {
+footer {
 	/* border: 1px solid brown; */
-	margin: 25px 0;
+	margin: 30px 0;
 	padding: 5px;
 }
 
